@@ -1,0 +1,75 @@
+.typo-body {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+}
+
+.typo-tag {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.typo-h1 {
+    font-family: var(--font-serif);
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 120%;
+
+    @media (max-width: 800px) {
+        font-size: 36px;
+    }
+}
+
+.typo-h2 {
+    font-family: var(--font-serif);
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 120%;
+
+    @media (max-width: 800px) {
+        font-size: 24px;
+    }
+
+}
+
+.typo-h3 {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+}
+
+.typo-button {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    text-align: right;
+}
+
+.typo-bold {
+    font-weight: 700;
+}
+
+.typo-center {
+    text-align: center;
+}
+
+.typo-muted {
+    color: var(--brand-muted)
+}
+
+.claim {
+    font-size: 62px;
+
+    @media (max-width: 800px) {
+        font-size: 42px;
+    }
+}

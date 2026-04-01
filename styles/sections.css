@@ -1,0 +1,109 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 0;
+    @media (min-width: 800px) {
+        padding: 20px var(--grid-col);
+    }
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    grid-column: 2 / span 5;
+}
+
+.header-left a {
+    align-self: flex-start;
+}
+
+
+.claim-button {
+    margin: 20px 0;
+}
+
+.header-right {
+    grid-column: 8 / span 4;
+}
+
+.story {
+    grid-column: 4 / span 6;
+}
+
+.imagine {
+    grid-column: 4 / span 6;
+}
+
+.introduction {
+    grid-column: 2 / span 10;
+}
+
+.included {
+    grid-column: 2 / span 10;
+}
+
+.foryou {
+    grid-column: 2 / span 5;
+}
+
+.notforyou {
+    grid-column: 7 / span 5;
+
+    @media (max-width: 800px) {
+        margin-top: 40px;
+    }
+}
+
+.about-left {
+    grid-column: 2 / span 5;
+}
+
+.about-right {
+    grid-column: 7 / span 5;
+
+    @media (max-width: 800px) {
+        margin-top: 40px;
+    }
+}
+
+.outcomes {
+    grid-column: 2 / span 10;
+}
+
+.investment {
+    grid-column: 3 / span 7;
+}
+
+.faq {
+    grid-column: 2 / span 9;
+}
+
+.cta {
+    grid-column: 2 / span 9;
+}
+
+.footer {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.price {
+    font-size: 96px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    @media (max-width: 800px) {
+        font-size: 72px;
+    }
+}
+
+.investment {
+    background-color: var(--brand-accent-muted);
+    border: 1px solid var(--brand-accent);
+    border-radius: 50px;
+    padding: 50px;
+}
