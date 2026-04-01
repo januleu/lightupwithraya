@@ -4,6 +4,11 @@
     font-size: 22px;
     line-height: 140%;
     letter-spacing: -0.02em;
+
+    @media (max-width: 800px) {
+        font-size: 18px;
+    }
+
 }
 
 .typo-tag {
@@ -21,7 +26,7 @@
     line-height: 120%;
 
     @media (max-width: 800px) {
-        font-size: 36px;
+        font-size: 32px;
     }
 }
 
@@ -71,5 +76,12 @@
 
     @media (max-width: 800px) {
         font-size: 42px;
+    }
+}
+
+.logo, .logo-cta {
+    @media (max-width: 800px) {
+        font-size: 15px;
+        max-width: 40%;
     }
 }
