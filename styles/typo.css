@@ -81,7 +81,7 @@
 
 .logo, .logo-cta {
     @media (max-width: 800px) {
-        font-size: 15px;
+        font-size: 17px;
         max-width: 40%;
     }
 }
