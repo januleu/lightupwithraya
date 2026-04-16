@@ -21,7 +21,7 @@ nav {
 }
 
 
-.claim-button {
+.title-button {
     margin: 20px 0;
 }
 
@@ -29,27 +29,16 @@ nav {
     grid-column: 8 / span 4;
 }
 
-.story {
-    grid-column: 4 / span 6;
-}
-
-.imagine {
-    grid-column: 4 / span 6;
-}
-
-.introduction {
+.belief {
     grid-column: 2 / span 10;
+    justify-content: center;
 }
 
-.included {
-    grid-column: 2 / span 10;
-}
-
-.foryou {
+.belief-left {
     grid-column: 2 / span 5;
 }
 
-.notforyou {
+.belief-right {
     grid-column: 7 / span 5;
 
     @media (max-width: 800px) {
@@ -57,8 +46,32 @@ nav {
     }
 }
 
+.imagine {
+    grid-column: 2 / span 10;
+}
+
+.start {
+    grid-column: 2 / span 10;
+}
+
+.method {
+    grid-column: 2 / span 10;
+}
+
+.opportunity {
+    grid-column: 2 / span 10;
+}
+
+.included {
+    grid-column: 2 / span 10;
+}
+
+.about {
+    align-items: center;
+}
+
 .about-left {
-    grid-column: 2 / span 5;
+    grid-column: 1 / span 6;
 }
 
 .about-right {
@@ -67,6 +80,16 @@ nav {
     @media (max-width: 800px) {
         margin-top: 40px;
     }
+}
+
+.about-bottom {
+    grid-row: 2;
+    grid-column: 2 / span 10;
+    margin-top: 40px;
+}
+
+.about-bottom div {
+    margin-bottom: 30px;
 }
 
 .outcomes {

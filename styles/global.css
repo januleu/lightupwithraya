@@ -33,6 +33,16 @@ section {
 
 }
 
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+
+    @media (min-width: 800px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 .grid-3 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -148,4 +158,11 @@ svg {
 .fade-in.visible {
     opacity: 1;
     transform: translateY(0);
+}
+
+.bg-texture {
+    background-image: url("../img/texture.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

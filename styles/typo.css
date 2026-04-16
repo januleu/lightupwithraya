@@ -8,7 +8,6 @@
     @media (max-width: 800px) {
         font-size: 18px;
     }
-
 }
 
 .typo-tag {
@@ -48,6 +47,7 @@
     font-size: 23px;
     line-height: 120%;
     letter-spacing: -0.02em;
+    padding-bottom: 10px;
 }
 
 .typo-button {
@@ -71,12 +71,26 @@
     color: var(--brand-muted)
 }
 
-.claim {
+.typo-claim {
+    font-size: 36px;
+    line-height: 140%;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: var(--brand-claim);
+}
+
+.title {
     font-size: 62px;
 
     @media (max-width: 800px) {
         font-size: 42px;
     }
+}
+
+.semibold {
+    font-weight: 700;
+    display: inline;
 }
 
 .logo, .logo-cta {
