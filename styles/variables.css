@@ -1,11 +1,13 @@
 :root {
     --brand-bg: #FFFFFF;
-    --brand-bg-accent: #FAF9F5;
+    --brand-bg-light: #FDFBFA;
+    --brand-bg-accent: #FFDC8C;
     --brand-accent: #F5D17E;
     --brand-accent-muted: #FDF3DC;
-    --brand-accent-secondary: #EADEC4;
-    --brand-ink: #2C2C2B;
-    --brand-muted: #555555;
+    --brand-icon: #E7CAB0;
+    --brand-claim: #E1B182;
+    --brand-ink: #5D3E32;
+    --brand-muted: #74635d;
     --brand-line: #EAE8E0;
     --font-serif: "Source Serif 4", serif;
     --font-sans: "DM sans", sans-serif;
