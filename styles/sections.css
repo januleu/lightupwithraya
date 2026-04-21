@@ -2,10 +2,12 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 15px 0;
-    @media (min-width: 800px) {
-        padding: 20px var(--grid-col);
-    }
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo {
+    text-align: left;
 }
 
 .header-left {
@@ -34,6 +36,12 @@ nav {
     justify-content: center;
 }
 
+.belief-claim {
+    @media (min-width: 800px) {
+        gap: 10px;
+    }
+}
+
 .belief-left {
     grid-column: 2 / span 5;
 }
@@ -58,8 +66,13 @@ nav {
     grid-column: 2 / span 10;
 }
 
+.method > div > span {
+    display: inline-block;
+}
+
 .opportunity {
     grid-column: 2 / span 10;
+    padding-bottom: 10px;
 }
 
 .included {
@@ -68,6 +81,7 @@ nav {
 
 .about {
     align-items: center;
+    padding-left: 20px;
 }
 
 .about-left {
@@ -75,7 +89,7 @@ nav {
 }
 
 .about-right {
-    grid-column: 7 / span 5;
+    grid-column: 7 / span 6;
 
     @media (max-width: 800px) {
         margin-top: 40px;
@@ -97,7 +111,10 @@ nav {
 }
 
 .investment {
-    grid-column: 3 / span 7;
+    grid-column: 3 / span 8;
+    border: 1px solid var(--brand-accent);
+    border-radius: 50px;
+    padding: 50px;
 }
 
 .faq {
@@ -105,7 +122,7 @@ nav {
 }
 
 .cta {
-    grid-column: 2 / span 9;
+    grid-column: 2 / span 10;
 }
 
 .footer {
@@ -124,9 +141,3 @@ nav {
     }
 }
 
-.investment {
-    background-color: var(--brand-accent-muted);
-    border: 1px solid var(--brand-accent);
-    border-radius: 50px;
-    padding: 50px;
-}

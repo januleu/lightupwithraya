@@ -4,27 +4,21 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     box-sizing: border-box;
-    max-width: 1280px;
     margin: auto;
-    @media (max-width: 800px) {
-        padding: 20px;
-    }
-}
-
-.bg-box {
-    background: var(--brand-bg-accent);
-    border-radius: 50px;
-    @media (max-width: 800px) {
-        padding: 30px;
-    }
 }
 
 section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding: 44px 20px;
+
+    @media (min-width: 800px) {
+        padding: 80px 20px;
+    }
 }
 
 .grid {
+    max-width: 1280px;
+    margin: auto;
+
     @media (min-width: 800px) {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
@@ -104,13 +98,13 @@ img {
 
 .number-small {
     font-family: var(--font-serif);
-    color: var(--brand-accent-secondary);
+    color: var(--brand-icon);
     font-size: 32px;
 }
 
 .number-large {
     font-family: var(--font-serif);
-    color: var(--brand-accent-secondary);
+    color: var(--brand-icon);
     font-size: 52px;
     line-height: 80%;
 }
@@ -138,7 +132,7 @@ img {
 }
 
 svg {
-    color: var(--brand-accent-secondary)
+    color: var(--brand-icon)
 }
 
 /* Delay Utilities */
@@ -166,3 +160,17 @@ svg {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.bg-photo {
+    background-image: url("../img/clouds.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+
+.bg-light {
+    background-color: var(--brand-bg-light);
+}
+
