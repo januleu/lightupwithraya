@@ -262,7 +262,7 @@ img {
 .grid-2 {
     display: grid;
     gap: 64px;
-    align-items: center;
+    align-items: start;
 }
 
 @media (min-width: 768px) {
